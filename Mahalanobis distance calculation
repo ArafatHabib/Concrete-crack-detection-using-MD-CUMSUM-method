@@ -1,0 +1,5 @@
+Test=cat(2,combo_counts',combo_energy',combo_risetime',combo_decaytime',combo_peakamplitude');
+Train = Test(1:100,1:5);
+oppp =mahal(Test,Train);
+plot(oppp)
+//After calculating the distance, the CUMSUM was calculated using python.
